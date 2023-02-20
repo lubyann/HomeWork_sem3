@@ -13,10 +13,10 @@ if (N < 0)
 {
     i = N;
     m = -N;
-    N = -i;
+    N = -1;
 }
 int[] result = new int[m];
-for (int j = 0; i <= m; i++)
+for (int j = 0; i <= N; i++)
 {
     result[j] = i * i * i;
     j++;
